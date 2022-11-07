@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     addTodo(todo) {
-      this.todos.unshift(todo);
+      this.todos.push(todo);
     },
     deleteTodo(id) {
       let index = this.todos.findIndex(res => {

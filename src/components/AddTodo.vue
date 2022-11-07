@@ -39,4 +39,9 @@ input {
     border-radius: 10px;
     margin: 0 auto;
 }
+
+input:focus {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  border: 1px solid #cdcdcd;
+}
 </style>

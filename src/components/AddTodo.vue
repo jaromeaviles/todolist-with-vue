@@ -1,16 +1,12 @@
 <template>
   <form @submit.prevent="addTodo()">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-auto">
+    <div class="row">
+      <div class="col-12">
         <input ref="inputValue"
           type="text"
-         
           class="form-control"
           placeholder="e.g What to do?"
         />
-      </div>
-      <div class="col-auto">
-        <button class="btn btn-success">Submit</button>
       </div>
     </div>
   </form>
@@ -34,3 +30,13 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+form {
+    margin-top: 50px;
+}
+input {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+</style>
